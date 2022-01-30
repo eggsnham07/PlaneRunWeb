@@ -6,3 +6,5 @@
 [[redirects]]
     from = "https://planerunweb.netlify.app/*"
     to = "https://planerun.eggsnham.com/:splat"
+    status = "302"
+    force = true
