@@ -9,7 +9,7 @@ function App() {
         <h1>Plane Run</h1>
         <span>
           <h3>
-            <a href="https://m.pr.eggsnham.com" className="App-link">Mobile</a>
+            <a href="/game/mobile" className="App-link">Mobile</a>
             <span className='App-spacer'>-</span>
             Or
             <span className='App-spacer'>-</span>
