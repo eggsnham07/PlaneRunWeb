@@ -1,22 +1,24 @@
-import logo from "./icon.png"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
+import Home from "./pages/Home";
+import Navbar from "./pages/Navbar"
+import Footer from "./pages/Footer"
+import DiscordWidget from "./pages/DiscordWidget"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} alt="App Logo" className="App-logo" />
-        <h1>Plane Run</h1>
-        <span>
-          <h3>
-            <a href="/game/mobile" className="App-link">Mobile</a>
-            <span className='App-spacer'>-</span>
-            Or
-            <span className='App-spacer'>-</span>
-            <a href="/game" className="App-link">Desktop</a>
-          </h3>
-        </span>
+        <Navbar />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} exact />
+            <Route path="/discord" element={<DiscordWidget />} exact />
+          </Routes>
+        </BrowserRouter>
       </header>
+
+      <Footer />
     </div>
   );
 }

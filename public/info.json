@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "platform": "mobile",
+            "version": "1.0.0"
+        },
+        {
+            "platform": "desktop",
+            "version": "1.0.1"
+        }
+    ]
+}
