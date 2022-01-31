@@ -1,6 +1,6 @@
 {
-  "name": "react-frontend",
-  "version": "0.1.0",
+  "name": "react-planerun-web",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "versions": {
+    "desktop": "1.0.1",
+    "mobile": "1.0.0"
   }
 }
